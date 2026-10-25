@@ -1,0 +1,77 @@
+name: remembrances
+description: تطبيق مشروع خيركم لمتابعة العبادات اليومية.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # أيقونات iOS
+  cupertino_icons: ^1.0.8
+
+  # إدارة الحالة
+  provider: ^6.1.5
+
+  # قاعدة البيانات المحلية
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # مسار حفظ الملفات
+  path_provider: ^2.1.5
+
+  # التقويم
+  table_calendar: ^3.2.0
+
+  # الرسوم البيانية
+  fl_chart: ^1.0.0
+
+  # الإشعارات المحلية
+  flutter_local_notifications: ^22.2.0
+  timezone: ^0.11.1
+
+  # إنشاء ملفات PDF
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+  # مشاركة الملفات
+  share_plus: ^13.3.0
+
+  # ترتيب العناصر بالسحب والإفلات
+  reorderables: ^0.6.0
+
+  # تنسيق التاريخ
+  intl: ^0.20.2
+
+  # خطوط Google
+  google_fonts: ^8.2.1
+
+  # اختيار ملفات للاستيراد
+  file_picker: ^12.0.0-beta.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  
+  # 👈 تم نقل الحزمة هنا في مكانها الصحيح
+  flutter_launcher_icons: ^0.13.1
+
+# 👈 إضافة إعدادات الأيقونة في أسفل الملف تماماً بأسلوب مستقل
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/images/icon.jpeg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/Amiri/

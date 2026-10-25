@@ -1,0 +1,33 @@
+{
+  "scoring": {"full": 2, "partial": 1, "none": 0},
+  "categories": [
+    {
+      "id": "quran_adhkar",
+      "title": "القرآن والأذكار",
+      "habits": [
+        {"id": "ward_qurani", "title": "ورد قرآني", "starred": false, "reminder": true, "default_order": 1},
+        {"id": "dhikr", "title": "ذكر", "starred": false, "reminder": true, "default_order": 2},
+        {"id": "adhkar_sabah_masa", "title": "أذكار الصباح والمساء", "starred": false, "reminder": true, "default_order": 3}
+      ]
+    },
+    {
+      "id": "salawat_nawafil",
+      "title": "الصلوات والنوافل",
+      "habits": [
+        {"id": "qiyam_layl", "title": "قيام ليل", "starred": true, "reminder": true, "default_order": 1},
+        {"id": "siyam_nawafil", "title": "صيام نوافل", "starred": false, "reminder": true, "default_order": 2},
+        {"id": "salat_janaiz", "title": "صلاة جنازة", "starred": true, "reminder": true, "default_order": 3}
+      ]
+    },
+    {
+      "id": "masjid_goodness_knowledge",
+      "title": "المسجد والخير والعلم",
+      "habits": [
+        {"id": "salat_masjid_jamaah", "title": "الصلاة في المسجد جماعة", "starred": false, "reminder": true, "default_order": 1},
+        {"id": "itikaf", "title": "اعتكاف في المسجد", "starred": false, "reminder": false, "default_order": 2},
+        {"id": "sadaqah", "title": "صدقة", "starred": false, "reminder": false, "default_order": 3},
+        {"id": "listening_sermon", "title": "سماع موعظة", "starred": false, "reminder": true, "default_order": 4}
+      ]
+    }
+  ]
+}
